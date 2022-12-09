@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+   Tutorial 12
+   Review Assignment
+   
+   Filename: bc_styles.css
+   
+   Layout Styles for the Federalist Paper page
+
+*/
+
+/* HTML and Body Styles */
+
+html {
+  background: rgb(251, 246, 237);
+  height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0px auto;
+  color: rgb(51, 51, 51);
+  background-color: rgb(248, 238, 222);
+  box-shadow: inset 0px 0px 35px rgba(51, 51, 51, 0.6);
+}
+
+/* Body Header Styles */
+
+body > header {
+  width: 100%;
+}
+
+body > header > img {
+  display: block;
+  width: 100%;
+}
+
+/* Horizonal Navigation Styles */
+
+nav.horizontal {
+  background-color: rgb(147, 114, 88);
+}
+
+nav.horizontal ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  padding: 5px 0px 5px 20px;
+}
+
+nav.horizontal li {
+  color: white;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  display: block;
+  margin-right: 12px;
+}
+
+nav.horizontal ul li a:visited,
+nav.horizontal ul li a:link {
+  color: white;
+}
+
+nav.horizontal ul li a:hover,
+nav.horizontal ul li a:active {
+  text-decoration: underline;
+  color: rgb(255, 255, 191);
+}
+
+/* H1 Styles */
+
+body > h1 {
+  font-size: 2.5em;
+  margin: 20px 0px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+/* Article Styles */
+
+article {
+  -webkit-flex: 3 1 300px;
+  flex: 3 1 300px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 0px 40px 20px 20px;
+}
+
+article > h1 {
+  font-size: 2.2em;
+  line-height: 2.2em;
+  font-weight: bold;
+  margin: 25px 0px 10px;
+  border-top: 1px solid rgb(101, 101, 101);
+  padding-top: 10px;
+}
+
+article > h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin: 25px 0px 10px;
+}
+
+article > h3 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: bold;
+  margin: 5px 0px 5px 25px;
+}
+
+article p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin: 5px 0px 8px 25px;
+  text-align: justify;
+}
+
+article p:first-of-type:first-line {
+  font-variant: small-caps;
+}
+
+article p:first-of-type:first-letter {
+  float: left;
+  font-size: 300%;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 0.8;
+  margin-right: 5px;
+}
+
+article dfn {
+  color: rgba(84, 101, 147, 1);
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 101, 0.6);
+}
+
+/* Footer Styles */
+
+body > footer {
+  background-color: rgb(147, 114, 88);
+  color: rgb(241, 241, 241);
+  font-size: 0.9em;
+  text-align: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+body > footer a {
+  color: white;
+}

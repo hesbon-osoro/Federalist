@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5, CSS3 and JavaScript 6th Edition
+   Tutorial 12
+   Review Assignment
+   
+   Filename: bc_keys.css
+   
+   Keyword Styles for the Federalist Papers page
+
+*/
+
+aside#keywords {
+  float: right;
+  width: 320px;
+  margin: 20px 0px 20px 20px;
+  border: 1px solid rgb(101, 101, 101);
+  padding: 10px;
+}
+
+aside#keywords h1 {
+  font-size: 2em;
+  margin: 5px;
+  text-align: center;
+}
+
+aside#keywords ol {
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+aside#keywords ol li {
+  line-height: 1.5em;
+}
+
+aside#keywords ol li a {
+  text-decoration: none;
+  color: rgb(101, 101, 101);
+}
